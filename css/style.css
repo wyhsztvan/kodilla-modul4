@@ -38,6 +38,7 @@ nav ul li {
 	font-size: 16px;
 	font-weight: 600;
 	color: white;
+	transition: .3s
 }
 
 nav ul li:hover {
@@ -52,6 +53,7 @@ button {
 	font-size: 22px;
 	font-weight: 600;
 	letter-spacing: 1px;
+	transition: .3s
 }
 button:hover {
 	color: yellow;
@@ -105,13 +107,22 @@ p {
 .services i {
 	color: #ebc41a;
 }
-/*
+
 .icon {
 	background: white;
 	border: 2px solid #ebc41a;
 	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
 }
-*/
+
+.icon i.fas {
+	font-size: 30px;
+	line-height: 70px;
+}
 article {
 	margin-top: 50px;
 }
@@ -140,9 +151,8 @@ footer {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-i {
+footer i {
 	font-size: 40px;
 	margin: 0 12px;
 	cursor: pointer;
-	
 }
