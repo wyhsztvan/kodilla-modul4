@@ -4,86 +4,119 @@
         <meta charset="utf-8">
         <title> portfolio </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans&display=swap&subset=latin-ext" rel="stylesheet">
-		<link rel="stylesheet" href="vendor/bootstrap-grid">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="vendor/bootstrap-grid.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
 			<nav>
 				<ul>
-					<li> home </li>
-					<li> services </li>
-					<li> portfolio </li>
-					<li> about </li>
+					<li> HOME </li>
+					<li> SERVICES </li>
+					<li> PORTFOLIO </li>
+					<li> ABOUT </li>
 				</ul>
 			</nav>
-			<h2> Welcome to out studio </h2>
-			<h1> It's nice to meet you </h1>
-			<button> Tell me more </button>
+			<h2> Welcome to our studio </h2>
+			<h1> IT'S NICE TO MEET YOU </h1>
+			<button> TELL ME MORE </button>
 		</header>
-		<section>
-			<h3> Services </h3>
+		<section class="services">
+			<h3> SERVICES </h3>
 			<h4> asjnasofasnmvnasvavasvkias asvnasvkl asvlnasv </h4>
-			<article>
-				<i> </i>
-				<h5> E-commerce </h5>
-				<p> njasvnasjv asvlnasv asvlasnvasv asvasv asvasnva svasvnas vasnvasvasnv asvnasvasv nvaa va
-				asvlnasv asvnasasv asvn asvnasv asv jasv ajsv asjv asvjasvnjasv asv. </p>
-			</article>
-			<article>
-				<i> </i>
-				<h5> E-commerce </h5>
-				<p> njasvnasjv asvlnasv asvlasnvasv asvasv asvasnva svasvnas vasnvasvasnv asvnasvasv nvaa va
-				asvlnasv asvnasasv asvn asvnasv asv jasv ajsv asjv asvjasvnjasv asv. </p>
-			</article>
-			<article>
-				<i> </i>
-				<h5> E-commerce </h5>
-				<p> njasvnasjv asvlnasv asvlasnvasv asvasv asvasnva svasvnas vasnvasvasnv asvnasvasv nvaa va
-				asvlnasv asvnasasv asvn asvnasv asv jasv ajsv asjv asvjasvnjasv asv. </p>
-			</article>
+			<div class="container">
+				<div class="row">
+					<article class="col-lg-4">
+						<div class="icon">
+							<i class="fas fa-camera"></i>
+						</div>
+						<h5> E-commerce </h5>
+						<p> njasvnasjv asvlnasv asvlasnvasv asvasv asvasnva svasvnas vasnvasvasnv asvnasvasv nvaa va
+						asvlnasv asvnasasv asvn asvnasv asv jasv ajsv asjv asvjasvnjasv asv. </p>
+					</article>
+					<article class="col-lg-4">
+						<i class="fas fa-video"></i>
+						<h5> E-commerce </h5>
+						<p> njasvnasjv asvlnasv asvlasnvasv asvasv asvasnva svasvnas vasnvasvasnv asvnasvasv nvaa va
+						asvlnasv asvnasasv asvn asvnasv asv jasv ajsv asjv asvjasvnjasv asv. </p>
+					</article>
+					<article class="col-lg-4">
+						<i class="fas fa-briefcase"></i>
+						<h5> E-commerce </h5>
+						<p> njasvnasjv asvlnasv asvlasnvasv asvasv asvasnva svasvnas vasnvasvasnv asvnasvasv nvaa va
+						asvlnasv asvnasasv asvn asvnasv asv jasv ajsv asjv asvjasvnjasv asv. </p>
+					</article>
+				</div>
+			</div>
 		</section>
-		<section>
-			<h3> Portfolio </h3>
-			<h4> asjnasofasnmvnasvavasvkias asvnasvkl asvlnasv </h4>
-			<article>
-				<img> 
-				<h5> podpis obrazka </h5>
-				<p> asfaslf asfnlkas asfnas </p>	
-			</article>
-			<article>
-				<img> 
-				<h5> podpis obrazka </h5>
-				<p> asfaslf asfnlkas asfnas </p>	
-			</article>
-			<article>
-				<img> 
-				<h5> podpis obrazka </h5>
-				<p> asfaslf asfnlkas asfnas </p>	
-			</article>
-			<article>
-				<img> 
-				<h5> podpis obrazka </h5>
-				<p> asfaslf asfnlkas asfnas </p>	
-			</article>
-			<article>
-				<img> 
-				<h5> podpis obrazka </h5>
-				<p> asfaslf asfnlkas asfnas </p>	
-			</article>
-			<article>
-				<img> 
-				<h5> podpis obrazka </h5>
-				<p> asfaslf asfnlkas asfnas </p>	
-			</article>
+		<section class="portfolio">
+			<h3> PORTFOLIO </h3>
+			<h4> Something to your hear, something to your brain</h4>
+			<div class="container">
+				<div class="row">
+					<article class="picture col-md-6 col-lg-4">
+						<div class="photo">
+							<img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"> 
+						</div>
+						<div class="photo-description">
+							<h6> Technology </h6>
+							<p> asfaslf asfnlkas asfnas </p>	
+						</div>
+					</article>
+					<article class="picture col-md-6 col-lg-4">
+						<div class="photo">
+							<img src="https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"> 
+						</div>
+						<div class="photo-description">
+							<h6> Art </h6>
+							<p> asfaslf asfnlkas asfnas </p>	
+						</div>
+					</article>
+					<article class="picture col-md-6 col-lg-4">
+						<div class="photo">
+							<img src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"> 
+						</div>
+						<div class="photo-description">
+							<h6> Performance </h6>
+							<p> asfaslf asfnlkas asfnas </p>	
+						</div>
+					</article>
+					<article class="picture col-md-6 col-lg-4">
+						<div class="photo">
+							<img src="https://images.pexels.com/photos/2260825/pexels-photo-2260825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"> 
+						</div>
+						<div class="photo-description">
+							<h6> Consciousness </h6>
+							<p> asfaslf asfnlkas asfnas </p>	
+						</div>
+					</article>
+					<article class="picture col-md-6 col-lg-4">
+						<div class="photo">
+							<img src="https://images.pexels.com/photos/1047051/pexels-photo-1047051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"> 
+						</div>
+						<div class="photo-description">
+							<h6> Adventure </h6>
+							<p> asfaslf asfnlkas asfnas </p>	
+						</div>
+					</article>
+					<article class="picture col-md-6 col-lg-4">
+						<div class="photo">
+							<img src="https://images.pexels.com/photos/1143824/pexels-photo-1143824.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"s> 
+						</div>
+						<div class="photo-description">
+							<h6> Adrenaline </h6>
+							<p> asfaslf asfnlkas asfnas </p>	
+						</div>
+					</article>
+				</div>
+			</div>
 		</section>
 		<footer>
-			<i class="fab fa-facebook-square"></i>
+			<i class="fab fa-facebook-f"></i>
 			<i class="fab fa-twitter"></i>
-			<i class="fab fa-instagram"></i>
-			<i class="fab fa-google-plus-square"></i>
-
+			<i class="fab fa-pinterest-p"></i>
+			<i class="fab fa-google-plus-g"></i>
 		</footer>
     </body>
 </html>
