@@ -1,4 +1,4 @@
-* Global */
+/* Global */
 *, *::before, *::after {
   box-sizing: border-box; }
 
@@ -155,4 +155,32 @@ footer i {
 	font-size: 40px;
 	margin: 0 12px;
 	cursor: pointer;
+	transition: 0.3;
+}
+
+footer i.f:hover {
+	color: #3C5A99;
+	font-weight: 600;
+}
+footer i.t:hover {
+	color: #1DA1F2;
+	font-weight: 600;
+}
+footer i.g:hover {
+	color: #DB4437;
+	font-weight: 600;
+}
+footer i.p:hover {
+	color: #BD081C;
+	font-weight: 600;
+}
+ 
+
+footer i.far {
+	font-size: 16px;
+	margin: 0;
+}
+footer p {
+	margin-top: 18px;
+	font-size: 18px;
 }
